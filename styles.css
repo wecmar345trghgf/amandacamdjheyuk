@@ -1,0 +1,58 @@
+.ercontainer {
+    box-sizing: content-box;
+    display: none;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.ercontainer a, .ercontainer a:hover, .ercontainer a:visited, .ercontainer, .ertitle, a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.notify {
+    position: fixed;
+    top: 35%;
+    width: 100%;
+    padding: 3em;
+    color: #FFF;
+    background-color: #336699;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ercontent{
+    margin: auto;
+    width: 80%;
+    
+}
+
+.erBtnContainer{
+    float: right;
+}
+
+.erbtn{
+    padding: 0.5em 1em 0.5em 1em;
+    border-color: #FFF;
+    border: 0.2em;
+    border-style: solid;
+    background-color: #3399ff;
+    width: 80px;
+    text-align: center;
+    margin-left: 2em;
+}
+
+.erbtn:hover {
+    cursor:pointer;
+}
+
+.ertitle{
+    font-weight: normal;
+    font-size: 2em
+}
+
